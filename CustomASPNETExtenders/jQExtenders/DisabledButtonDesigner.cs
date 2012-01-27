@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CustomExtenders
 {
-    public class Class1
+    class DisabledButtonDesigner : AjaxControlToolkit.Design.ExtenderControlBaseDesigner<DisabledButtonExtender>
     {
     }
 }
