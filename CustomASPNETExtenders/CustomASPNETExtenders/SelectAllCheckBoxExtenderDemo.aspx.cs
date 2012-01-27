@@ -29,16 +29,6 @@ namespace DemoWebApp
                                                  new MyUsers {FirstName = "Lloyd", LastName = "Bowers", UserID = 8},
                                                  new MyUsers {FirstName = "Tammie", LastName = "Cole", UserID = 9},
                                                  new MyUsers {FirstName = "Howard", LastName = "Townsend", UserID = 10},
-                                                 new MyUsers {FirstName = "Desiree", LastName = "Orr", UserID = 11},
-                                                 new MyUsers {FirstName = "Mike", LastName = "Marshall", UserID = 12},
-                                                 new MyUsers {FirstName = "Kellie", LastName = "Guerra", UserID = 13},
-                                                 new MyUsers {FirstName = "Deborah", LastName = "Martinez", UserID = 14},
-                                                 new MyUsers {FirstName = "Elton", LastName = "Sexton", UserID = 15},
-                                                 new MyUsers {FirstName = "Brock", LastName = "Collins", UserID = 16},
-                                                 new MyUsers {FirstName = "Kristian", LastName = "Mac Donald", UserID = 17},
-                                                 new MyUsers {FirstName = "Ruth", LastName = "Pruitt", UserID = 18},
-                                                 new MyUsers {FirstName = "Roderick", LastName = "Villarreal", UserID = 19},
-                                                 new MyUsers {FirstName = "Lloyd", LastName = "Velasquez", UserID = 20},
 
                                                  #endregion
                                              };

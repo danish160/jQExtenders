@@ -54,10 +54,9 @@
     <Compile Include="SelectAllCheckBox\SelectAllCheckBoxExtender.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Scripts\jquery-min.js" />
     <EmbeddedResource Include="SelectAllCheckBox\SelectAllCheckBoxBehavior.js" />
     <EmbeddedResource Include="DisableButton\DisabledButtonBehavior.js" />
-    <Content Include="jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

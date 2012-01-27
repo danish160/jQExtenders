@@ -8,34 +8,36 @@ CustomExtenders.SelectAllCheckBoxBehavior = function (element) {
 };
 CustomExtenders.SelectAllCheckBoxBehavior.prototype = {
     initialize: function() {
-        var gridID = $(this).attr("id");
+        var gridID = this.get_element().id;
+        var rowCheckBoxID = this.get_RowCheckBoxID();
+        var headerCheckBoxID = this.get_HeaderCheckBoxID();
 
         CustomExtenders.SelectAllCheckBoxBehavior.callBaseMethod(this, 'initialize');
 
-        $(this).find("[id*=" + this._headerCheckBoxID + "]").change(function() {
+        $("#" + gridID).find("[id*=" + this._headerCheckBoxID + "]").change(function () {
             if (($(this).attr("checked") == true) || $(this).is(":checked")) {
-                if ($("#" + gridID).find("[id*=" + _rowCheckBoxID + "]").length > 0) {
-                    $("#" + gridID).find("[id*=" + _rowCheckBoxID + "]").attr("checked", true);
+                if ($("#" + gridID).find("[id*=" + rowCheckBoxID + "]").length > 0) {
+                    $("#" + gridID).find("[id*=" + rowCheckBoxID + "]").attr("checked", true);
                 } else {
                 }
             } else {
-                $("#" + gridID).find("[id*=" + _rowCheckBoxID + "]").attr("checked", false);
+                $("#" + gridID).find("[id*=" + rowCheckBoxID + "]").attr("checked", false);
             }
         });
 
 
-        $(this).find("[id*=" + this._rowCheckBoxID + "]").change(function() {
+        $("#" + gridID).find("[id*=" + this._rowCheckBoxID + "]").change(function () {
             var numChecked = 0;
 
-            var totalCheckBoxes = $("#" + gridID).find("[id*=" + this._rowCheckBoxID + "]").length;
+            var totalCheckBoxes = $("#" + gridID).find("[id*=" + rowCheckBoxID + "]").length;
             if (totalCheckBoxes > 0) {
-                numChecked = $("#" + gridID).find("[id*=" + this._rowCheckBoxID + "]:checked").length;
+                numChecked = $("#" + gridID).find("[id*=" + rowCheckBoxID + "]:checked").length;
 
                 if (numChecked > 0) {
                     if (numChecked == totalCheckBoxes)
-                        $("#" + gridID).find("[id*=" + this._headerCheckBoxID + "]").attr("checked", true);
+                        $("#" + gridID).find("[id*=" + headerCheckBoxID + "]").attr("checked", true);
                     else
-                        $("#" + gridID).find("[id*=" + this._headerCheckBoxID + "]").attr("checked", false);
+                        $("#" + gridID).find("[id*=" + headerCheckBoxID + "]").attr("checked", false);
                 } else {
                     $("table.options").hide();
                 }
@@ -49,7 +51,6 @@ CustomExtenders.SelectAllCheckBoxBehavior.prototype = {
     },
 
     // Property accessors 
-    //
     get_HeaderCheckBoxID: function() {
         return this._headerCheckBoxID;
     },
