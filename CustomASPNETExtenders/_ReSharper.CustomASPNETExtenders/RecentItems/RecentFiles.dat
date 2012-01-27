@@ -4,18 +4,19 @@
     <File id="285EA8FA-A6D7-4C10-ADA6-78A8A6DC45FD/f:Site.Master.cs" caret="0" fromTop="0" />
     <File id="285EA8FA-A6D7-4C10-ADA6-78A8A6DC45FD/f:Site.Master.designer.cs" caret="0" fromTop="0" />
     <File id="285EA8FA-A6D7-4C10-ADA6-78A8A6DC45FD/f:Default.aspx.designer.cs" caret="0" fromTop="0" />
-    <File id="285EA8FA-A6D7-4C10-ADA6-78A8A6DC45FD/f:Site.Master" caret="622" fromTop="13" />
     <File id="A0A53F9C-CC1A-40DC-A4FA-0DE959FF9054/f:MyCustomExtender.cs" caret="213" fromTop="5" />
     <File id="A0A53F9C-CC1A-40DC-A4FA-0DE959FF9054/f:DisabledButtonBehavior.js" caret="39" fromTop="0" />
-    <File id="285EA8FA-A6D7-4C10-ADA6-78A8A6DC45FD/f:Default.aspx" caret="762" fromTop="13" />
     <File id="A0A53F9C-CC1A-40DC-A4FA-0DE959FF9054/f:Class1.cs" caret="111" fromTop="5" />
     <File id="A0A53F9C-CC1A-40DC-A4FA-0DE959FF9054/f:DisabledButtonDesigner.cs" caret="253" fromTop="11" />
     <File id="A0A53F9C-CC1A-40DC-A4FA-0DE959FF9054/f:DisabledButtonExtender.cs" caret="288" fromTop="7" />
+    <File id="285EA8FA-A6D7-4C10-ADA6-78A8A6DC45FD/f:Site.Master" caret="721" fromTop="14" />
+    <File id="285EA8FA-A6D7-4C10-ADA6-78A8A6DC45FD/f:Web.config" caret="2216" fromTop="19" />
+    <File id="285EA8FA-A6D7-4C10-ADA6-78A8A6DC45FD/f:Default.aspx" caret="25" fromTop="0" />
   </RecentFiles>
   <RecentEdits>
-    <File id="285EA8FA-A6D7-4C10-ADA6-78A8A6DC45FD/f:Site.Master" caret="731" fromTop="15" />
-    <File id="285EA8FA-A6D7-4C10-ADA6-78A8A6DC45FD/f:Site.Master" caret="1022" fromTop="22" />
-    <File id="285EA8FA-A6D7-4C10-ADA6-78A8A6DC45FD/f:Site.Master" caret="791" fromTop="17" />
+    <File id="285EA8FA-A6D7-4C10-ADA6-78A8A6DC45FD/f:Site.Master" caret="830" fromTop="15" />
+    <File id="285EA8FA-A6D7-4C10-ADA6-78A8A6DC45FD/f:Site.Master" caret="1121" fromTop="22" />
+    <File id="285EA8FA-A6D7-4C10-ADA6-78A8A6DC45FD/f:Site.Master" caret="890" fromTop="17" />
     <File id="285EA8FA-A6D7-4C10-ADA6-78A8A6DC45FD/f:Default.aspx.cs" caret="162" fromTop="7" />
     <File id="A0A53F9C-CC1A-40DC-A4FA-0DE959FF9054/f:MyCustomExtender.cs" caret="0" fromTop="0" />
     <File id="A0A53F9C-CC1A-40DC-A4FA-0DE959FF9054/f:MyCustomExtender.cs" caret="711" fromTop="20" />
@@ -28,10 +29,6 @@
     <File id="A0A53F9C-CC1A-40DC-A4FA-0DE959FF9054/f:DisabledButtonBehavior.js" caret="1187" fromTop="33" />
     <File id="A0A53F9C-CC1A-40DC-A4FA-0DE959FF9054/f:DisabledButtonBehavior.js" caret="1682" fromTop="30" />
     <File id="A0A53F9C-CC1A-40DC-A4FA-0DE959FF9054/f:DisabledButtonBehavior.js" caret="1778" fromTop="28" />
-    <File id="285EA8FA-A6D7-4C10-ADA6-78A8A6DC45FD/f:Default.aspx" caret="862" fromTop="8" />
-    <File id="285EA8FA-A6D7-4C10-ADA6-78A8A6DC45FD/f:Default.aspx" caret="794" fromTop="14" />
-    <File id="285EA8FA-A6D7-4C10-ADA6-78A8A6DC45FD/f:Site.Master" caret="1474" fromTop="13" />
-    <File id="285EA8FA-A6D7-4C10-ADA6-78A8A6DC45FD/f:Site.Master" caret="622" fromTop="13" />
     <File id="A0A53F9C-CC1A-40DC-A4FA-0DE959FF9054/f:MyCustomExtender.cs" caret="721" fromTop="20" />
     <File id="A0A53F9C-CC1A-40DC-A4FA-0DE959FF9054/f:MyCustomExtender.cs" caret="213" fromTop="5" />
     <File id="A0A53F9C-CC1A-40DC-A4FA-0DE959FF9054/f:DisabledButtonBehavior.js" caret="283" fromTop="8" />
@@ -42,5 +39,9 @@
     <File id="A0A53F9C-CC1A-40DC-A4FA-0DE959FF9054/f:DisabledButtonDesigner.cs" caret="251" fromTop="10" />
     <File id="A0A53F9C-CC1A-40DC-A4FA-0DE959FF9054/f:DisabledButtonExtender.cs" caret="288" fromTop="7" />
     <File id="A0A53F9C-CC1A-40DC-A4FA-0DE959FF9054/f:DisabledButtonDesigner.cs" caret="234" fromTop="7" />
+    <File id="285EA8FA-A6D7-4C10-ADA6-78A8A6DC45FD/f:Site.Master" caret="1154" fromTop="12" />
+    <File id="285EA8FA-A6D7-4C10-ADA6-78A8A6DC45FD/f:Site.Master" caret="674" fromTop="13" />
+    <File id="285EA8FA-A6D7-4C10-ADA6-78A8A6DC45FD/f:Default.aspx" caret="878" fromTop="16" />
+    <File id="285EA8FA-A6D7-4C10-ADA6-78A8A6DC45FD/f:Default.aspx" caret="850" fromTop="15" />
   </RecentEdits>
 </RecentFiles>

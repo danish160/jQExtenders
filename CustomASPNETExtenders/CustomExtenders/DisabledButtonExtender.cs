@@ -9,12 +9,12 @@ namespace CustomExtenders
 {
     [Designer(typeof(DisabledButtonDesigner))]
     [ClientScriptResource("CustomExtenders.DisabledButtonBehavior", "CustomExtenders.DisabledButtonBehavior.js")]
-    [TargetControlType(typeof (TextBox))]
+    [TargetControlType(typeof(TextBox))]
     public class DisabledButtonExtender : ExtenderControlBase
     {
         [ExtenderControlProperty]
         [DefaultValue("")]
-        [IDReferenceProperty(typeof (Button))]
+        [IDReferenceProperty(typeof(Button))]
         public string TargetButtonID
         {
             get { return GetPropertyValue("TargetButtonID", ""); }

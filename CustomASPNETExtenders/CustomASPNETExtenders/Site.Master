@@ -10,8 +10,9 @@
 </head>
 <body>
     <form runat="server">
-    <asp:ScriptManager ID="ScriptManager1" runat="server">
-    </asp:ScriptManager>
+    <ajaxToolkit:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server" EnablePartialRendering="true"
+        CombineScripts="false">
+    </ajaxToolkit:ToolkitScriptManager>
     <div class="page">
         <div class="header">
             <div class="title">

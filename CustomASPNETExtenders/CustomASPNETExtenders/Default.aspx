@@ -13,6 +13,10 @@
             TargetControlID="TextBox1" TargetButtonID="Button1">
         </cc1:DisabledButtonExtender>
         &nbsp;<asp:Button ID="Button1" runat="server" Text="Button" />
+    </p>
+    <asp:Panel ID="Panel1" runat="server">
+    </asp:Panel>
+    <p>
         <br />
     </p>
 </asp:Content>

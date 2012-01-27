@@ -47,10 +47,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="DisabledButtonDesigner.cs" />
     <Compile Include="DisabledButtonExtender.cs" />
-    <Compile Include="MyCustomExtender.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

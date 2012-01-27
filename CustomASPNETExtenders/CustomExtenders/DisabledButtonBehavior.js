@@ -59,4 +59,6 @@ CustomExtenders.DisabledButtonBehavior.prototype = {
         }
     }
 };
-CustomExtenders.DisabledButtonBehavior.registerClass('CustomExtenders.DisabledButtonBehavior', AjaxControlToolkit.BehaviorBase);
+CustomExtenders.DisabledButtonBehavior.registerClass('CustomExtenders.DisabledButtonBehavior', Sys.Extended.UI.BehaviorBase);
+//CustomExtenders.DisabledButtonBehavior.registerClass('CustomExtenders.DisabledButtonBehavior', AjaxControlToolkit.BehaviorBase);
+//CustomExtenders.DisabledButtonBehavior.registerClass('CustomExtenders.DisabledButtonBehavior', Sys.UI.Behavior);
