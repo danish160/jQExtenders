@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWebApp", "CustomASPNETExtenders\DemoWebApp.csproj", "{285EA8FA-A6D7-4C10-ADA6-78A8A6DC45FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jQExtenders", "jQExtenders\jQExtenders.csproj", "{A0A53F9C-CC1A-40DC-A4FA-0DE959FF9054}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{285EA8FA-A6D7-4C10-ADA6-78A8A6DC45FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{285EA8FA-A6D7-4C10-ADA6-78A8A6DC45FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{285EA8FA-A6D7-4C10-ADA6-78A8A6DC45FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{285EA8FA-A6D7-4C10-ADA6-78A8A6DC45FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0A53F9C-CC1A-40DC-A4FA-0DE959FF9054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A53F9C-CC1A-40DC-A4FA-0DE959FF9054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A53F9C-CC1A-40DC-A4FA-0DE959FF9054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0A53F9C-CC1A-40DC-A4FA-0DE959FF9054}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

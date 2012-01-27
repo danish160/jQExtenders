@@ -1,0 +1,5 @@
+D:\GIT\jQExtenders\CustomASPNETExtenders\jQExtenders\bin\Debug\jQExtenders.dll
+D:\GIT\jQExtenders\CustomASPNETExtenders\jQExtenders\bin\Debug\jQExtenders.pdb
+D:\GIT\jQExtenders\CustomASPNETExtenders\jQExtenders\obj\Debug\ResolveAssemblyReference.cache
+D:\GIT\jQExtenders\CustomASPNETExtenders\jQExtenders\obj\Debug\jQExtenders.dll
+D:\GIT\jQExtenders\CustomASPNETExtenders\jQExtenders\obj\Debug\jQExtenders.pdb
