@@ -106,7 +106,7 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\jQExtenders\CustomExtenders.csproj">
+    <ProjectReference Include="..\CustomExtenders\CustomExtenders.csproj">
       <Project>{A0A53F9C-CC1A-40DC-A4FA-0DE959FF9054}</Project>
       <Name>CustomExtenders</Name>
     </ProjectReference>

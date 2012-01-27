@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWebApp", "CustomASPNETExtenders\DemoWebApp.csproj", "{285EA8FA-A6D7-4C10-ADA6-78A8A6DC45FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomExtenders", "jQExtenders\CustomExtenders.csproj", "{A0A53F9C-CC1A-40DC-A4FA-0DE959FF9054}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomExtenders", "CustomExtenders\CustomExtenders.csproj", "{A0A53F9C-CC1A-40DC-A4FA-0DE959FF9054}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
