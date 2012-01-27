@@ -1,22 +1,13 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
-    CodeBehind="Default.aspx.cs" Inherits="DemoWebApp._Default" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
+    CodeBehind="Default.aspx.cs" Inherits="DemoWebApp.Default" %>
 
-<%@ Register Assembly="CustomExtenders" Namespace="CustomExtenders" TagPrefix="cc1" %>
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
-<asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <p>
-    </p>
+        <a href="DisabledButtonExtenderDemo.aspx">DisabledButtonExtenderDemo.aspx</a></p>
     <p>
-        Task:<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-        <cc1:DisabledButtonExtender ID="TextBox1_DisabledButtonExtender" runat="server" DisabledText="My disabled message"
-            TargetControlID="TextBox1" TargetButtonID="Button1">
-        </cc1:DisabledButtonExtender>
-        &nbsp;<asp:Button ID="Button1" runat="server" Text="Button" />
-    </p>
-    <asp:Panel ID="Panel1" runat="server">
-    </asp:Panel>
+        <a href="SelectAllCheckBoxExtenderDemo.aspx">SelectAllCheckBoxExtenderDemo.aspx</a></p>
     <p>
-        <br />
     </p>
 </asp:Content>

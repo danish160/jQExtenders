@@ -3,12 +3,12 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using AjaxControlToolkit;
 
-[assembly: WebResource("CustomExtenders.DisabledButtonBehavior.js", "text/javascript")]
+[assembly: WebResource("CustomExtenders.DisableButton.DisabledButtonBehavior.js", "text/javascript")]
 
-namespace CustomExtenders
+namespace CustomExtenders.DisableButton
 {
     [Designer(typeof(DisabledButtonDesigner))]
-    [ClientScriptResource("CustomExtenders.DisabledButtonBehavior", "CustomExtenders.DisabledButtonBehavior.js")]
+    [ClientScriptResource("CustomExtenders.DisabledButtonBehavior", "CustomExtenders.DisableButton.DisabledButtonBehavior.js")]
     [TargetControlType(typeof(TextBox))]
     public class DisabledButtonExtender : ExtenderControlBase
     {

@@ -62,8 +62,10 @@
     <Reference Include="System.Web.ApplicationServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="SelectAllCheckBoxExtenderDemo.aspx" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="DisabledButtonExtenderDemo.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.4.1.js" />
@@ -84,10 +86,24 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DisabledButtonExtenderDemo.aspx.cs">
+      <DependentUpon>DisabledButtonExtenderDemo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisabledButtonExtenderDemo.aspx.designer.cs">
+      <DependentUpon>DisabledButtonExtenderDemo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SelectAllCheckBoxExtenderDemo.aspx.cs">
+      <DependentUpon>SelectAllCheckBoxExtenderDemo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SelectAllCheckBoxExtenderDemo.aspx.designer.cs">
+      <DependentUpon>SelectAllCheckBoxExtenderDemo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

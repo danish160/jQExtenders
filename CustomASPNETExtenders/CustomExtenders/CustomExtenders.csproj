@@ -47,14 +47,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DisabledButtonDesigner.cs" />
-    <Compile Include="DisabledButtonExtender.cs" />
+    <Compile Include="DisableButton\DisabledButtonDesigner.cs" />
+    <Compile Include="DisableButton\DisabledButtonExtender.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SelectAllCheckBox\SelectAllCheckBoxDesigner.cs" />
+    <Compile Include="SelectAllCheckBox\SelectAllCheckBoxExtender.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="DisabledButtonBehavior.js" />
+    <Content Include="Scripts\jquery-min.js" />
+    <EmbeddedResource Include="SelectAllCheckBox\SelectAllCheckBoxBehavior.js" />
+    <EmbeddedResource Include="DisableButton\DisabledButtonBehavior.js" />
     <Content Include="jquery-1.4.1-vsdoc.js" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
