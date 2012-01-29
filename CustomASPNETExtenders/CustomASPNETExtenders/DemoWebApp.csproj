@@ -63,13 +63,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
-    <Content Include="SelectAllCheckBoxExtenderDemo.aspx" />
+    <Content Include="DemoSelectAllCheckBoxExtender.aspx" />
+    <Content Include="DemoListCompleteExtender.aspx" />
+    <Content Include="Styles\close.gif" />
     <Content Include="Styles\Site.css" />
-    <Content Include="DisabledButtonExtenderDemo.aspx" />
+    <Content Include="DemoDisabledButtonExtender.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.4.1.js" />
     <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Styles\style.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -86,23 +89,30 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="DisabledButtonExtenderDemo.aspx.cs">
-      <DependentUpon>DisabledButtonExtenderDemo.aspx</DependentUpon>
+    <Compile Include="DemoDisabledButtonExtender.aspx.cs">
+      <DependentUpon>DemoDisabledButtonExtender.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DisabledButtonExtenderDemo.aspx.designer.cs">
-      <DependentUpon>DisabledButtonExtenderDemo.aspx</DependentUpon>
+    <Compile Include="DemoDisabledButtonExtender.aspx.designer.cs">
+      <DependentUpon>DemoDisabledButtonExtender.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SelectAllCheckBoxExtenderDemo.aspx.cs">
-      <DependentUpon>SelectAllCheckBoxExtenderDemo.aspx</DependentUpon>
+    <Compile Include="DemoListCompleteExtender.aspx.cs">
+      <DependentUpon>DemoListCompleteExtender.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="SelectAllCheckBoxExtenderDemo.aspx.designer.cs">
-      <DependentUpon>SelectAllCheckBoxExtenderDemo.aspx</DependentUpon>
+    <Compile Include="DemoListCompleteExtender.aspx.designer.cs">
+      <DependentUpon>DemoListCompleteExtender.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DemoSelectAllCheckBoxExtender.aspx.cs">
+      <DependentUpon>DemoSelectAllCheckBoxExtender.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DemoSelectAllCheckBoxExtender.aspx.designer.cs">
+      <DependentUpon>DemoSelectAllCheckBoxExtender.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>

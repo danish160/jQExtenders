@@ -10,33 +10,24 @@
 namespace DemoWebApp {
     
     
-    public partial class DisabledButtonExtenderDemo {
+    public partial class DemoListCompleteExtender {
         
         /// <summary>
-        /// TextBox1 control.
+        /// ListBox1_ListCompleteExtender control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::CustomExtenders.ListComplete.ListCompleteExtender ListBox1_ListCompleteExtender;
         
         /// <summary>
-        /// TextBox1_DisabledButtonExtender control.
+        /// ListBox1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::CustomExtenders.DisableButton.DisabledButtonExtender TextBox1_DisabledButtonExtender;
-        
-        /// <summary>
-        /// Button1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.ListBox ListBox1;
     }
 }

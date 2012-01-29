@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="SelectAllCheckBoxExtenderDemo.aspx.cs" Inherits="DemoWebApp.SelectAllCheckBoxExtenderDemo" %>
+    CodeBehind="DemoSelectAllCheckBoxExtender.aspx.cs" Inherits="DemoWebApp.DemoSelectAllCheckBoxExtender" %>
 
 <%@ Register Assembly="CustomExtenders" Namespace="CustomExtenders.SelectAllCheckBox"
     TagPrefix="cc1" %>

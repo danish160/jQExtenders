@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
-    CodeBehind="DisabledButtonExtenderDemo.aspx.cs" Inherits="DemoWebApp.DisabledButtonExtenderDemo" %>
+    CodeBehind="DemoDisabledButtonExtender.aspx.cs" Inherits="DemoWebApp.DemoDisabledButtonExtender" %>
 
 <%@ Register TagPrefix="cc1" Namespace="CustomExtenders.DisableButton" Assembly="CustomExtenders" %>
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
