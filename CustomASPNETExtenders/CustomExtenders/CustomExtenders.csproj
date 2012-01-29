@@ -49,6 +49,8 @@
   <ItemGroup>
     <Compile Include="DisableButton\DisabledButtonDesigner.cs" />
     <Compile Include="DisableButton\DisabledButtonExtender.cs" />
+    <Compile Include="ListComplete\ListCompleteDesigner.cs" />
+    <Compile Include="ListComplete\ListCompleteExtender.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SelectAllCheckBox\SelectAllCheckBoxDesigner.cs" />
     <Compile Include="SelectAllCheckBox\SelectAllCheckBoxExtender.cs" />
@@ -56,6 +58,9 @@
   <ItemGroup>
     <EmbeddedResource Include="SelectAllCheckBox\SelectAllCheckBoxBehavior.js" />
     <EmbeddedResource Include="DisableButton\DisabledButtonBehavior.js" />
+    <EmbeddedResource Include="ListComplete\ListCompleteBehavior.js" />
+    <Content Include="ListComplete\close.gif" />
+    <Content Include="ListComplete\style.css" />
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
   </ItemGroup>
   <ItemGroup />

@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace DemoWebApp
 {
-    public partial class SelectAllCheckBoxExtenderDemo : System.Web.UI.Page
+    public partial class DemoSelectAllCheckBoxExtender : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

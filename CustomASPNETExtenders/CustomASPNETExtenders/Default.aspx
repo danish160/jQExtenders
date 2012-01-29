@@ -5,9 +5,9 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <p>
-        <a href="DisabledButtonExtenderDemo.aspx">DisabledButtonExtenderDemo.aspx</a></p>
+        <a href="DemoDisabledButtonExtender.aspx">Demo - DisabledButtonExtender</a></p>
     <p>
-        <a href="SelectAllCheckBoxExtenderDemo.aspx">SelectAllCheckBoxExtenderDemo.aspx</a></p>
+        <a href="DemoSelectAllCheckBoxExtender.aspx">Demo - SelectAllCheckBoxExtender</a></p>
     <p>
-    </p>
+        <a href="DemoListCompleteExtender.aspx">Demo - ListCompleteExtender</a></p>
 </asp:Content>

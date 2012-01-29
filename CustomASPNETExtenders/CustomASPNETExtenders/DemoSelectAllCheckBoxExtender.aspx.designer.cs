@@ -10,7 +10,7 @@
 namespace DemoWebApp {
     
     
-    public partial class SelectAllCheckBoxExtenderDemo {
+    public partial class DemoSelectAllCheckBoxExtender {
         
         /// <summary>
         /// GridView1 control.
