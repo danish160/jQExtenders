@@ -6,7 +6,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <link href="Styles/style.css" rel="stylesheet" type="text/css" />
     <cc1:ListCompleteExtender ID="ListBox1_ListCompleteExtender" runat="server" ControlWidth="400px"
         Enabled="True" IsCacheAllowed="False" MaxItemsAllowed="10" TargetControlID="ListBox1"
         FilterSelectedItems="True" MinInputLength="1" TipForItemSelection="Select a country ..."

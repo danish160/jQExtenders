@@ -4,14 +4,36 @@ using System.Web.UI.WebControls;
 using AjaxControlToolkit;
 
 [assembly: WebResource("CustomExtenders.ListComplete.ListCompleteBehavior.js", "text/javascript")]
+[assembly: WebResource("CustomExtenders.ListComplete.style.css", "text/css")]
+[assembly: WebResource("CustomExtenders.ListComplete.close.gif", "image/gif")]
 
 namespace CustomExtenders.ListComplete
 {
     [Designer(typeof(ListCompleteDesigner))]
     [ClientScriptResource("CustomExtenders.ListCompleteBehavior", "CustomExtenders.ListComplete.ListCompleteBehavior.js")]
+    [ClientCssResource("CustomExtenders.ListComplete.style.css", LoadOrder = 1)]
     [TargetControlType(typeof(ListBox))]
     public class ListCompleteExtender : ExtenderControlBase
     {
+        protected override void OnInit(System.EventArgs e)
+        {
+            base.OnInit(e);
+
+            // create the style sheet control
+            // and put it in the document header
+            //string csslink = "<link href='" +
+            //                 Page.ClientScript.GetWebResourceUrl(this.GetType(), "MyWebResourceProj.MyResources.Test.css")
+            //                 + "' rel='stylesheet' type='text/css' />";
+
+            //LiteralControl include = new LiteralControl(csslink);
+            //this.Page.Header.Controls.Add(include);
+
+            //Image imgClose = new Image();
+            //imgClose.ImageUrl = "ListComplete/close.gif";
+
+            //this.Page.Header.Controls.Add(imgClose);
+        }
+
         [ExtenderControlProperty]
         [DefaultValue("")]
         public string ControlWidth
@@ -145,5 +167,6 @@ namespace CustomExtenders.ListComplete
             get { return GetPropertyValue("MinInputLength", 1); }
             set { SetPropertyValue("MinInputLength", value); }
         }
+
     }
 }
