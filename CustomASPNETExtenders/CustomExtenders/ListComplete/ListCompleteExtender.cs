@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.ComponentModel;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using AjaxControlToolkit;
@@ -19,19 +20,18 @@ namespace CustomExtenders.ListComplete
         {
             base.OnInit(e);
 
-            // create the style sheet control
-            // and put it in the document header
-            //string csslink = "<link href='" +
-            //                 Page.ClientScript.GetWebResourceUrl(this.GetType(), "MyWebResourceProj.MyResources.Test.css")
-            //                 + "' rel='stylesheet' type='text/css' />";
+            string closeImageUrl = Page.ClientScript.GetWebResourceUrl(this.GetType(), "CustomExtenders.ListComplete.close.gif");
 
-            //LiteralControl include = new LiteralControl(csslink);
-            //this.Page.Header.Controls.Add(include);
+            //LiteralControl include = new LiteralControl(closeImageUrl);
 
-            //Image imgClose = new Image();
-            //imgClose.ImageUrl = "ListComplete/close.gif";
+            Label lblCloseImageUrl = new Label();
+            lblCloseImageUrl.ID = "lblCloseImageUrlListCompleteExtender";
+            lblCloseImageUrl.ViewStateMode = ViewStateMode.Disabled;
+            lblCloseImageUrl.EnableViewState = false;
+            lblCloseImageUrl.Text = closeImageUrl;
+            lblCloseImageUrl.Attributes["style"] = "display: none;";
 
-            //this.Page.Header.Controls.Add(imgClose);
+            this.Page.Header.Controls.Add(lblCloseImageUrl);
         }
 
         [ExtenderControlProperty]

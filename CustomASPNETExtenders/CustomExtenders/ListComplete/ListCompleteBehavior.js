@@ -103,9 +103,11 @@ CustomExtenders.ListCompleteBehavior.prototype = {
             ////            else if ($(hiddenControl)[0].value != "") {
             ////            }
 
-
+            // modifying internal CSS to reference close image loaded from assembly
+            var imgCloseUrl = $("#lblCloseImageUrlListCompleteExtender").text()
+            var closebuttonStyle = getCSSRule('ul.holder li.bit-box a.closebutton');
+            closebuttonStyle.style.background = 'url("' + imgCloseUrl + '") repeat scroll 0 0 transparent';
         }
-
 
         CustomExtenders.ListCompleteBehavior.callBaseMethod(this, 'initialize');
     },
@@ -819,3 +821,10 @@ FCBKcomplete v2.8.9.3 is released under the MIT License <http://www.opensource.o
         });
     };
 })(jQuery);
+
+
+// on the go css selector modification functions
+// taken from : http://www.hunlock.com/blogs/Totally_Pwn_CSS_with_Javascript
+function getCSSRule(a, b) { a = a.toLowerCase(); if (document.styleSheets) { for (var c = 0; c < document.styleSheets.length; c++) { var d = document.styleSheets[c]; var e = 0; var f = false; do { if (d.cssRules) { f = d.cssRules[e] } else { f = d.rules[e] } if (f) { if (f.selectorText.toLowerCase() == a) { if (b == "delete") { if (d.cssRules) { d.deleteRule(e) } else { d.removeRule(e) } return true } else { return f } } } e++ } while (f) } } return false }
+function killCSSRule(a) { return getCSSRule(a, "delete") }
+function addCSSRule(a) { if (document.styleSheets) { if (!getCSSRule(a)) { if (document.styleSheets[0].addRule) { document.styleSheets[0].addRule(a, null, 0) } else { document.styleSheets[0].insertRule(a + " { }", 0) } } } return getCSSRule(a) }
